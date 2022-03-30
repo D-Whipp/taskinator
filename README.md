@@ -4,12 +4,22 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [Usage](#usage)
 - [License](#license)
 - [Author](#author)
 - [Badges](#badges)
 
 ## Introduction
+Welcome to Taskinator, a Front End application designed to help it's users keep track of their tasks. 
 
+## Usage
+Using Taskinator is simple. <br>
+Simply click this [link](d-whipp.github.io/taskinator/) and you'll be taken to Taskinator. Once there you can <br>
+* create a new task
+* add it's type in the drop down box
+* click "Add Task" to add your item to the "Tasks To Do" section
+<br>
+![about section](./assets/images/app-screenshot/about-section.png)
 
 ## License
 
