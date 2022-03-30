@@ -6,6 +6,6 @@
 
 
 ## Badges
-![javaScript badge](https://img.shields.io/badge/Language-JavaScript-blue)
+![javaScript badge](https://img.shields.io/badge/language-javascript-blue)
 ![build stable](https://img.shields.io/badge/build-stable-blue)
 ![front end badge](https://img.shields.io/badge/development-front%20end-blue)
