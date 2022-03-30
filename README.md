@@ -24,9 +24,9 @@ Simply click this [link](https://d-whipp.github.io/taskinator/) and you'll be ta
 - create a new task
 - add it's type in the drop down box
 - click "Add Task" to add your item to the "Tasks To Do" section
-  <br>
-
-![about section](./assets/images/app-screenshot/about-section-screenshot.png)
+- you can edit your task with the edit option
+- you can click the drop down menu to place the text in the correct column
+- finally, you can delete a task
 
 ## License
 
