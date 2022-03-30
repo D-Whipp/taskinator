@@ -29,6 +29,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+## Author
+
+You can view more of my work at [my github](https://github.com/D-Whipp)
+
 ## Badges
 ![javaScript badge](https://img.shields.io/badge/language-javascript-blue)
 ![build stable](https://img.shields.io/badge/build-stable-blue)
