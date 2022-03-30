@@ -67,6 +67,7 @@ var taskFormHandler = function (event) {
 };
 
 var createTaskEl = function (taskDataObj) {
+  console.log("Task Data Object", taskDataObj);
   // create list item
   var listItemEl = document.createElement("li");
   listItemEl.className = "task-item";
@@ -242,21 +243,23 @@ var taskButtonHandler = function (event) {
 };
 
 var saveTasks = function () {
+  console.log("task object", tasks);
   localStorage.setItem("tasks", JSON.stringify(tasks));
 };
 
 var loadTasks = function () {
-  var savedTasks = localStorage.getItem("tasks");
+  var savedTasks = JSON.parse(localStorage.getItem("tasks") || []);
+  console.log('saved', savedTasks)
 
-  if (savedTasks) {
-    return false;
-  }
+  //if (savedTasks) {
+    //return false;
+  //} 
 
-  savedTasks = JSON.parse(savedTasks);
+  //savedTasks = JSON.parse(savedTasks);
   // loop through savedTasks array
   for (var i = 0; i < saveTasks.length; i++) {
     // pass each task object into the 'createTaskEl()' function
-    createTaskEl(savedTasks[i]);
+    createTaskEl(saveTasks[i]);
   }
 };
 
