@@ -2,6 +2,12 @@
 ### Front End App
 ![app screenshot](./assets/images/app-screenshot/app-screenshot.png)
 
+## Table of Contents
+- [Introduction](#introduction)
+- [License](#license)
+- [Author](#author)
+- [Badges](#badges)
+
 ## Introduction
 
 
